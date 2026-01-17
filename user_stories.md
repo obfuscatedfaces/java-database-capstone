@@ -1,7 +1,7 @@
 User Stories
 
 
-Admin:
+## Admin:
 
 As an Admin, I want to use the AdminDashboard to register new doctors into 
 the MySQL Database, so that the system can maintain an accurate directory 
@@ -15,7 +15,7 @@ As an Admin, I want to manage login credentials stored in the MySQL
 Models, so that only authorized personnel can access sensitive patient 
 data.
 
- Patient:
+## Patient:
 
 As a Patient, I want to use the PatientDashboard (via REST API) to 
 retrieve my Prescription documents from MongoDB, so that I can access my 
@@ -28,9 +28,7 @@ spot is reserved in the doctor’s calendar.
 As a Patient, I want to update my contact information via a JSON API, so 
 that the Patient JPA Entity reflects my most current details.
 
-
-
-Doctor:
+## Doctor:
 
 As a Doctor, I want to create a Prescription in the DoctorDashboard that 
 can include varying fields (like dosage, duration, and special notes) 
