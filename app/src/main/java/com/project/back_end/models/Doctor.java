@@ -1,12 +1,21 @@
 package com.project.back_end.models;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
-import javax.persistence.*;
-import javax.validation.constraints.Email;
-import javax.validation.constraints.NotNull;
-import javax.validation.constraints.Pattern;
-import javax.validation.constraints.Size;
-import java.util.List;
+import jakarta.persistence.Entity;
+import jakarta.persistence.Id;
+import jakarta.persistence.GeneratedValue;
+import jakarta.persistence.GenerationType;
+
+import jakarta.persistence.JoinColumn;
+import jakarta.persistence.Column;
+
+import jakarta.persistence.ElementCollection;
+import jakarta.persistence.CollectionTable;
+
+import jakarta.validation.constraints.NotNull;
+import jakarta.validation.constraints.Size;
+import jakarta.validation.constraints.Email;
+import jakarta.validation.constraints.Pattern;
 
 @Entity
 public class Doctor {
